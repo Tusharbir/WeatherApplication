@@ -31,7 +31,8 @@ git clone https://github.com/Tusharbir/WeatherApplication.git
     ii.  Download the google-services.json file.
     iii. Place the downloaded file into the app/ directory of your Android Studio project. 
 
-![google-services.json placement](https://github.com/Tusharbir/WeatherApplication/assets/109094205/b4a31fe5-781e-4d82-aa9a-2238cf94fa4d)
+![image](https://github.com/Tusharbir/WeatherApplication/assets/109094205/89f101af-a962-4706-bfec-fca4e1b588d8)
+
 
 
 
@@ -61,7 +62,8 @@ Weather data is powered by OpenWeatherMap and WeatherAPI. You'll need to generat
 ## Step 4 Adding the api keys here:
 
 ### Go to ApiKeyManager.kt File: add the api keys there
-![google-services.json placement](https://github.com/Tusharbir/WeatherApplication/assets/109094205/df4eadd0-dcad-4aa2-86fd-14df48c59b6a)
+![image](https://github.com/Tusharbir/WeatherApplication/assets/109094205/812a36dd-355d-47f1-85be-9f5cfc4c46c7)
+
 
 
 
@@ -70,6 +72,7 @@ Weather data is powered by OpenWeatherMap and WeatherAPI. You'll need to generat
 
 
 ## Pictures: 
-![image](https://github.com/Tusharbir/WeatherApplication/assets/109094205/baa13281-b9b5-48ce-bad3-c9ddeccf5cd7)
+![image](https://github.com/Tusharbir/WeatherApplication/assets/109094205/24142bd8-4a1c-4203-938d-f20df6f9044f)
+
 
 
