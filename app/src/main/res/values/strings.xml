@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="dummy_city_name">Stuttgart</string>
+    <string name="dummy_date">1 February 2024, Thursday</string>
+    <string name="dummy_temperature">18°</string>
+    <string name="degreeSign">°</string>
+    <string name="dummy_weather_status">ThunderStorm</string>
+    <string name="dummy_wind">10 m/s</string>
+    <string name="wind">Wind</string>
+    <string name="rain">Rain</string>
+    <string name="humid">Humidity</string>
+
+    <string name="rain_value">10%</string>
+    <string name="humid_value">88%</string>
+
+    <string name="air_quality_heading">AIR QUALITY</string>
+
+    <string name="api_key">01e630e68e888641a4ee3cfd16dfe46b</string>
+    <string name="dummy_air_quality">Index: 1</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_air_quality_description">Unhealthy </string>
+    <string name="uv_index_heading">UV INDEX</string>
+    <string name="uv_sunrise_heading">Sunrise</string>
+    <string name="uv_sunset_heading">Sunset</string>
+
+    <string name="today_s_hourly_forecast_heading">Today\'s Hourly Forecast</string>
+    <string name="dummy_day">Sun</string>
+    <string name="seven_days_forecast_heading">5 Days Forecast</string>
+</resources>

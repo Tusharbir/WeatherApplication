@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WeatherApp" parent="Theme.Material3.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/primaryColor</item>
+    </style>
+
+    <style name="Theme.WeatherApp" parent="Base.Theme.WeatherApp" />
+
+    <style name="CityHeadingTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/russo_one</item>
+
+    </style>
+
+    <style name="DateTextStyle">
+        <item name="android:textColor">@color/customBlack</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/chakra_petch_light</item>
+    </style>
+
+    <style name="TemperatureTextStyle" parent="CityHeadingTextStyle">
+        <item name="android:textSize">80sp</item>
+    </style>
+
+    <style name="DataTextStyle">
+        <item name="fontFamily">@font/rubik</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/customBlack</item>
+    </style>
+
+    <style name="HighlightTextStyle">
+        <item name="fontFamily">@font/rubik</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/customBlack</item>
+    </style>
+
+    <style name="UVSunImage">
+        <item name="android:src">@drawable/ic_sun_light</item>
+    </style>
+
+    <style name="ViewStyleLine">
+        <item name="android:background">@color/grey</item>
+    </style>
+
+
+    <style name="WeekForecastCalendar">
+        <item name="android:src">@drawable/ic_calenar</item>
+    </style>
+
+    <style name="HourlyForecastClock">
+        <item name="android:src">@drawable/ic_clock</item>
+    </style>
+
+    <style name="CityIconSearch">
+        <item name="android:src">@drawable/ic_location</item>
+    </style>
+
+    <style name="SearchPopUp">
+        <item name="android:background">@drawable/rectangle_border</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">38dp</item>
+    </style>
+
+    <style name="BackButtonStyle">
+        <item name="android:src">@drawable/ic_back</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:background">@color/transparent_background</item>
+    </style>
+
+    <style name="WorldIconStyle">
+        <item name="android:src">@drawable/ic_world</item>
+    </style>
+
+
+
+
+
+    <style name="backgroundColor"> <item name="android:background">@color/white</item> </style>
+</resources>

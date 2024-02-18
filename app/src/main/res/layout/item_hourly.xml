@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingHorizontal="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_item_hourly_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/DataTextStyle"
+        android:textSize="14sp"
+        android:text="Now"/>
+
+    <ImageView
+        android:id="@+id/iv_item_hourly_image"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_hourly_sample"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_item_hourly_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/DataTextStyle"
+        android:textSize="16sp"
+        android:text="@string/dummy_temperature"/>
+
+
+</LinearLayout>

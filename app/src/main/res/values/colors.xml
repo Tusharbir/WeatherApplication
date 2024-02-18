@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#1c1c1e</color>
+    <color name="lightBackGroundColor">@color/white</color>
+
+    <color name="primaryColor">#1d2d55</color>
+    <color name="secondaryColor">#1b85e7</color>
+
+    <color name="rippleEffectColor">#F24B4949</color>
+
+    <color name="transparent_background">#00FFFFFF</color>
+
+    <color name="transparent_grey">#F03B3939</color>
+
+
+    <color name="customBlack">#1B1D1F</color>
+    <color name="customWhite">#F3F3F3</color>
+
+    <color name="grey">#EB373737</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="warmOrange">#CB856F</color>
+    <color name="hotOrange">#AF411F</color>
+
+    <color name="coldBlue">#093559</color>
+    <color name="warmBlue">#315F84</color>
+</resources>

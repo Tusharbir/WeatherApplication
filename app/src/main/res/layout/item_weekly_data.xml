@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:paddingVertical="15dp"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_item_weekly_day"
+        android:layout_weight="1.2"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/DataTextStyle"
+        android:gravity="start"
+        android:paddingStart="10dp"
+        android:textSize="16sp"
+        android:text="Sunday"/>
+
+    <ImageView
+        android:layout_weight="0.6"
+        android:id="@+id/iv_item_weekly_icon"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_hourly_sample"/>
+
+    <TextView
+        android:layout_weight="0.6"
+        android:id="@+id/iv_item_weekly_temp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/DataTextStyle"
+        android:textSize="16sp"
+        android:layout_marginEnd="4dp"
+        android:gravity="center|end"
+        android:text="@string/dummy_temperature"/>
+
+<!--    <View-->
+<!--        android:layout_weight="1.5"-->
+<!--        android:layout_marginHorizontal="4dp"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        style="@style/ViewStyleLine"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        style="@style/DataTextStyle"
+        />
+
+    <TextView
+        android:layout_weight="0.6"
+        android:id="@+id/iv_item_weekly_min_temp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/DataTextStyle"
+        android:textSize="16sp"
+        android:layout_marginStart="4dp"
+        android:gravity="center|start"
+        android:text="@string/dummy_temperature"/>
+
+</LinearLayout>
