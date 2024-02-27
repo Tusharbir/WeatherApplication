@@ -31,7 +31,9 @@ git clone https://github.com/Tusharbir/WeatherApplication.git
     ii.  Download the google-services.json file.
     iii. Place the downloaded file into the app/ directory of your Android Studio project. 
 
-![image](https://github.com/Tusharbir/WeatherApplication/assets/109094205/89f101af-a962-4706-bfec-fca4e1b588d8)
+![image](https://github.com/Tusharbir/WeatherApplication/assets/109094205/4ca9700c-8f71-4ba7-aa73-dd7ab1448691)
+
+
 
 
 
